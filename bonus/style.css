@@ -54,3 +54,13 @@ li {
 .black {
     background-color: black;
 }
+
+
+/* media queris */
+
+@media screen and (max-width:480px) {
+    [class*="col"] {
+        flex-basis: calc((100% / 12) * 12);
+        max-width: calc((100% / 12) * 12);
+    }
+}
