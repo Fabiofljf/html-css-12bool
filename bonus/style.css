@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.mg_auto {
+    margin: 0 auto;
+}
+
+
+/* utility */
+
+.m_lf_20 {
+    margin-left: 20px;
+}
+
+.m_b_50 {
+    margin-bottom: 50px;
+}
+
+.display {
+    display: inline-block;
+}
+
+
+/* header */
+
+#menu li {
+    display: inline-block;
+    margin-left: 50px;
+}
